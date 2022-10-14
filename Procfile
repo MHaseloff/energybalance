@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True --VoilaConfiguration.file_whitelist="['.*\.(xlsx)']" practical2.ipynb runserver 0.0.0.0:5000
+web: voila --port=$PORT --Voila.ip=0.0.0.0 --no-browser --enable_nbextensions=True --VoilaConfiguration.file_whitelist="['.*\.(xlsx)']" practical2.ipynb
